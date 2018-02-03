@@ -1,0 +1,29 @@
+.list-coins{
+    padding:30px;
+}
+
+.list-coins__block{
+    height: 179px;
+    overflow-y: auto;
+}
+
+.list-coins__item{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eeeeeeb5;
+    background: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.list-coins__item:hover{
+    background: #eeeeeeb5;
+}
+.list-coins__link{
+    color: #1890ff;
+    background-color: transparent;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+}

@@ -1,0 +1,40 @@
+.view-coin__list{
+    display: flex;
+    flex-direction: row;
+}
+.item-source__title{
+    text-align: center;
+}
+.item-source{
+    width:14.2857%;
+    padding:10px;
+}
+.view-coin__title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.view-coin__table{
+    width:100%;
+}
+
+.source-table__block{
+    display: flex;
+    padding:15px 0;
+}
+.source-table__item{
+    width:26%;
+    text-transform: capitalize;
+}
+.source-table__item--id {
+    width: 6%;
+    display: flex;
+    justify-content: center;
+}
+.source-table__item--head {
+    color: rgb(158, 158, 158);
+}
+.source-table__item--source{
+    width:16%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+.source-table__item{
+    width:20%;
+    padding: 8px 0;
+}
+.source-table__line{
+    width:100%;
+    display: flex;
+    border-bottom: 1px solid #eeeeeeb5;
+}
+.block-item{
+    display: flex
+}
+
+.block-item__value{
+    width:70%;
+    text-transform: capitalize;
+    padding: 4px 0;
+}
+
+.block-item__value--num{
+    width:30%;
+}
